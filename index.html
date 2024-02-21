@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Topográfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro Topográfico</h1>
+        <form id="topographyForm">
+            <label for="pointInput">Punto:</label>
+            <input type="text" id="pointInput" required>
+
+            <label for="temperatureInput">Temperatura:</label>
+            <input type="number" id="temperatureInput" required>
+
+            <label for="humidityInput">Humedad:</label>
+            <input type="number" id="humidityInput" required>
+
+            <button type="button" onclick="addPoint()">Agregar Punto</button>
+        </form>
+
+        <button onclick="showPointList()">Lista de Puntos</button>
+        <button onclick="exportPoints()">Exportar Puntos</button>
+
+        <div id="pointList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
