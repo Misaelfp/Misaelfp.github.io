@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Proyectos ejecutados por Plasencia & Asociados S.A.C. — Ingeniería, Arquitectura y Geomática en Trujillo, Perú." />
+  <title>Proyectos | Plasencia & Asociados S.A.C.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="proyectos.css" />
+</head>
+
+<body>
+
+<nav id="nav" class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+
+    <a class="nav-logo" href="index.html">
+      <div class="logo-mark">P&amp;A</div>
+      <div class="logo-name">
+        Plasencia &amp; Asociados
+        <small>S.A.C.</small>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-label="Menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navmenu">
+      <ul class="navbar-nav me-4 gap-0">
+        <li class="nav-item"><a class="nav-link"        href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link"        href="servicios.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link active" href="proyectos.html">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link"        href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link"        href="contacto.html">Contacto</a></li>
+      </ul>
+      <a href="contacto.html" class="nav-link nav-cta">Solicitar Cotización</a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section id="page-hero">
+  <div class="ph-bg"></div>
+  <div class="ph-ov"></div>
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+
+  <div class="container ph-inner py-5">
+
+    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-duration="500">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item active">Proyectos</li>
+      </ol>
+    </nav>
+
+    <div class="ph-tag" data-aos="fade-up" data-aos-duration="600" data-aos-delay="60">
+      <span>Portafolio de proyectos</span>
+    </div>
+
+    <h1 class="ph-h1" data-aos="fade-up" data-aos-duration="700" data-aos-delay="120">
+      Nuestros <em>Proyectos</em>
+    </h1>
+
+    <p class="ph-p" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+      Una selección de los trabajos más representativos ejecutados en ingeniería civil, geomática, arquitectura y topografía en el norte del Perú.
+    </p>
+
+  </div>
+  <div class="ph-cut"></div>
+</section>
+
+
+<section id="filter-bar">
+  <div class="container">
+    <div class="filter-wrap" data-aos="fade-up" data-aos-duration="600">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="carreteras">Carreteras</button>
+      <button class="filter-btn" data-filter="topografia">Topografía</button>
+      <button class="filter-btn" data-filter="canales">Canales</button>
+      <button class="filter-btn" data-filter="fotogrametria">Fotogrametría</button>
+      <button class="filter-btn" data-filter="arquitectura">Arquitectura</button>
+      <button class="filter-btn" data-filter="obras">Obras Civiles</button>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects-grid">
+  <div class="container">
+
+    <div class="d-flex align-items-center justify-content-between mb-4" data-aos="fade-up">
+      <p style="font-size:.82rem;color:var(--tx2);margin:0;">
+        Mostrando <span id="proj-count" style="color:var(--g);font-weight:600;">12</span> proyectos
+      </p>
+      <div style="font-size:.78rem;color:var(--tx2);">
+        <i class="bi bi-geo-alt" style="color:var(--g);"></i> La Libertad, Perú
+      </div>
+    </div>
+
+    <div class="proj-masonry" id="projGrid">
+
+      <div class="proj-item tall" data-cat="carreteras"
+           data-title="Diseño Vial Av. Metropolitana Norte"
+           data-desc="Diseño geométrico y de pavimentos para la Avenida Metropolitana Norte, incluyendo estudio de tráfico, perfiles longitudinales y sección transversal conforme a norma DG-2018."
+           data-loc="Trujillo, La Libertad" data-year="2023" data-client="Municipalidad Provincial de Trujillo"
+           data-aos="fade-up" data-aos-delay="0">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2023</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Carreteras</div>
+          <h4>Diseño Vial Av. Metropolitana Norte</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Trujillo, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item std" data-cat="topografia"
+           data-title="Levantamiento Topográfico Cuenca Moche"
+           data-desc="Levantamiento planimétrico y altimétrico de la cuenca del río Moche con estación total y GNSS, generando curvas de nivel cada 0.5 m para estudios de gestión de riesgos."
+           data-loc="La Libertad" data-year="2023" data-client="ANA – Autoridad Nacional del Agua"
+           data-aos="fade-up" data-aos-delay="60">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2023</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Topografía</div>
+          <h4>Levantamiento Topográfico Cuenca Moche</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item sq" data-cat="canales"
+           data-title="Canal de Irrigación Valle Chicama"
+           data-desc="Diseño hidráulico y estructural del canal principal de riego del valle Chicama, con cálculo de caudales, pendientes y revestimiento de concreto f'c=175 kg/cm²."
+           data-loc="Ascope, La Libertad" data-year="2022" data-client="Junta de Usuarios Chicama"
+           data-aos="fade-up" data-aos-delay="120">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2022</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Canales</div>
+          <h4>Canal de Irrigación Valle Chicama</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Ascope, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item wide" data-cat="fotogrametria"
+           data-title="Vuelo Fotogramétrico UAV Sector Virú"
+           data-desc="Levantamiento fotogramétrico con drone de ala fija sobre 1,200 ha en el sector Virú. Procesamiento en Pix4DMapper para ortofotomapa a 5 cm/px y MDT para diseño agrícola."
+           data-loc="Virú, La Libertad" data-year="2022" data-client="Empresa Agroindustrial Camposol"
+           data-aos="fade-up" data-aos-delay="0">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2022</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Fotogrametría</div>
+          <h4>Vuelo Fotogramétrico UAV Sector Virú</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Virú, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item tall" data-cat="arquitectura"
+           data-title="Edificio Corporativo Centro Trujillo"
+           data-desc="Diseño arquitectónico y estructural de edificio de 8 pisos en el centro de Trujillo. Incluye levantamiento topográfico predial, estudio de suelos y expediente técnico completo."
+           data-loc="Trujillo, La Libertad" data-year="2021" data-client="Inversiones TRU S.A.C."
+           data-aos="fade-up" data-aos-delay="60">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2021</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Arquitectura</div>
+          <h4>Edificio Corporativo Centro Trujillo</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Trujillo, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item std" data-cat="obras"
+           data-title="Pabellón Educativo I.E. San Andrés"
+           data-desc="Ejecución de pabellón de 3 aulas en concreto armado con cobertura metálica. Supervisión técnica de partidas de estructuras, arquitectura e instalaciones."
+           data-loc="Trujillo, La Libertad" data-year="2021" data-client="UGEL La Libertad"
+           data-aos="fade-up" data-aos-delay="120">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2021</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Obras Civiles</div>
+          <h4>Pabellón Educativo I.E. San Andrés</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Trujillo, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item wide" data-cat="topografia"
+           data-title="Red Geodésica Provincia Sánchez Carrión"
+           data-desc="Establecimiento de 18 vértices geodésicos de primer orden con receptores GNSS de doble frecuencia y procesamiento diferencial. Certificación ante el IGN."
+           data-loc="Sánchez Carrión, La Libertad" data-year="2023" data-client="Gobierno Regional La Libertad"
+           data-aos="fade-up" data-aos-delay="0">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2023</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Topografía</div>
+          <h4>Red Geodésica Provincia Sánchez Carrión</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Sánchez Carrión, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item sq" data-cat="carreteras"
+           data-title="Trocha Carrozable Huaranchal – Lucma"
+           data-desc="Diseño de 14 km de trocha carrozable con perfil longitudinal, sección transversal, obras de arte y metrado. Incluye estudio de impacto ambiental y expediente SNIP."
+           data-loc="Gran Chimú, La Libertad" data-year="2022" data-client="Municipalidad Distrital de Huaranchal"
+           data-aos="fade-up" data-aos-delay="60">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2022</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Carreteras</div>
+          <h4>Trocha Carrozable Huaranchal – Lucma</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Gran Chimú, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item std" data-cat="fotogrametria"
+           data-title="Ortofotomapa Parque Industrial Trujillo"
+           data-desc="Vuelo con multirrotor DJI Matrice, captura de 480 fotogramas solapados al 80%. Ortofotomapa GSD 3 cm y nube de puntos densa para control de obras de urbanización."
+           data-loc="Trujillo, La Libertad" data-year="2023" data-client="PromPerú Inmobiliaria"
+           data-aos="fade-up" data-aos-delay="120">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2023</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Fotogrametría</div>
+          <h4>Ortofotomapa Parque Industrial Trujillo</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Trujillo, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item tall" data-cat="obras"
+           data-title="Mejoramiento Sistema de Agua Potable Otuzco"
+           data-desc="Diseño y ejecución de red de distribución de agua potable: 4.2 km de tuberías PVC, 2 reservorios elevados y cámara rompe-presión. Expediente técnico y supervisión de obra."
+           data-loc="Otuzco, La Libertad" data-year="2020" data-client="Municipalidad Provincial de Otuzco"
+           data-aos="fade-up" data-aos-delay="0">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2020</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Obras Civiles</div>
+          <h4>Mejoramiento Sistema de Agua Potable Otuzco</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Otuzco, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item std" data-cat="canales"
+           data-title="Canal Lateral Moro – Chao"
+           data-desc="Diseño hidráulico del canal lateral Moro-Chao, 8.6 km, pendiente 0.3%, sección trapezoidal revestida. Modelación hidráulica en HEC-RAS y AutoCAD Civil 3D."
+           data-loc="Chao, La Libertad" data-year="2021" data-client="Junta de Usuarios Chao-Virú-Moche"
+           data-aos="fade-up" data-aos-delay="60">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2021</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Canales</div>
+          <h4>Canal Lateral Moro – Chao</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Chao, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+      <div class="proj-item wide" data-cat="arquitectura"
+           data-title="Residencial Los Laureles – Etapa II"
+           data-desc="Diseño arquitectónico de 24 viviendas unifamiliares con planos de distribución, elevaciones, cortes e instalaciones. Levantamiento predial y certificación de áreas."
+           data-loc="Trujillo, La Libertad" data-year="2022" data-client="Urbanizadora Laureles S.A."
+           data-aos="fade-up" data-aos-delay="120">
+        <div class="proj-ph"><i class="bi bi-camera"></i><span>Imagen proyecto</span></div>
+        <span class="proj-year">2022</span>
+        <div class="proj-ov">
+          <div class="proj-cat">Arquitectura</div>
+          <h4>Residencial Los Laureles – Etapa II</h4>
+          <div class="proj-meta"><i class="bi bi-geo-alt"></i> Trujillo, La Libertad</div>
+        </div>
+        <div class="proj-arrow"><i class="bi bi-arrow-up-right"></i></div>
+      </div>
+
+    </div><div class="no-results" id="noResults">
+      <i class="bi bi-search"></i>
+      <p>No se encontraron proyectos en esta categoría.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="cta" class="sp-sm">
+  <div class="container">
+    <div class="cta-inner" data-aos="zoom-in" data-aos-duration="800">
+      <div class="cta-glow"></div>
+      <div class="cta-glow r"></div>
+      <div class="row align-items-center position-relative" style="z-index:1;">
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <div class="lbl">Trabaja con nosotros</div>
+          <h2 class="hdg">¿Tienes un proyecto de<br>ingeniería en mente?</h2>
+          <p class="sub mt-2">
+            Cuéntanos sobre tu proyecto y nuestro equipo técnico te brindará la solución más eficiente. Presencia en todo el norte del Perú.
+          </p>
+        </div>
+        <div class="col-lg-5 text-lg-end d-flex flex-column flex-lg-row justify-content-lg-end align-items-lg-center gap-3">
+          <a href="contacto.html" class="btn-g" style="font-size:.95rem;padding:15px 36px;">
+            Solicitar cotización <i class="bi bi-arrow-right"></i>
+          </a>
+          <a href="tel:+51000000000" class="btn-out">
+            <i class="bi bi-telephone-fill"></i> Llamar
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-lg-4">
+        <div class="ft-logo">
+          <div class="logo-mark" style="width:40px;height:40px;font-size:.9rem;">P&amp;A</div>
+          <div class="logo-name">
+            Plasencia &amp; Asociados
+            <small>Arquitectura e Ingeniería</small>
+          </div>
+        </div>
+        <p class="ft-desc">
+          Soluciones integrales en ingeniería civil, arquitectura y geomática. Presencia en todo el norte del Perú desde Trujillo, La Libertad.
+        </p>
+        <div class="social-row">
+          <a href="#" class="soc" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="soc" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="soc" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="soc" style="background:rgba(37,211,102,.12);color:#25D366;" title="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Páginas</h6>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h6>Categorías</h6>
+        <ul>
+          <li><a href="#" data-filter="carreteras" class="ft-filter">Carreteras</a></li>
+          <li><a href="#" data-filter="topografia" class="ft-filter">Topografía</a></li>
+          <li><a href="#" data-filter="canales" class="ft-filter">Canales</a></li>
+          <li><a href="#" data-filter="fotogrametria" class="ft-filter">Fotogrametría</a></li>
+          <li><a href="#" data-filter="arquitectura" class="ft-filter">Arquitectura</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4">
+        <h6>Contacto</h6>
+        <div class="ft-contact-item">
+          <div class="ft-ico"><i class="bi bi-geo-alt-fill"></i></div>
+          <p>Trujillo, La Libertad, Perú</p>
+        </div>
+        <div class="ft-contact-item">
+          <div class="ft-ico"><i class="bi bi-telephone-fill"></i></div>
+          <p>+51 XXX XXX XXX</p></div>
+        <div class="ft-contact-item">
+          <div class="ft-ico"><i class="bi bi-envelope-fill"></i></div>
+          <p>contacto@plasenciaasociados.com</p></div>
+        <div class="ft-contact-item">
+          <div class="ft-ico"><i class="bi bi-clock-fill"></i></div>
+          <p>Lun – Vie: 8:00 am – 6:00 pm<br>Sáb: 8:00 am – 1:00 pm</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="ft-bottom">
+      <span>© 2025 Plasencia &amp; Asociados S.A.C. — Todos los derechos reservados.</span>
+      <span style="color:rgba(255,255,255,.18);">Trujillo, La Libertad — Perú</span>
+    </div>
+  </div>
+</footer>
+
+
+<a class="wa-fab"
+   href="https://wa.me/51000000000?text=Hola%2C%20quisiera%20información%20sobre%20sus%20proyectos"
+   target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+  <span class="wa-tip">Escríbenos ahora</span>
+</a>
+
+
+<div class="proj-modal-backdrop" id="projModal" role="dialog" aria-modal="true" aria-label="Detalle de proyecto">
+  <div class="proj-modal">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">
+      <i class="bi bi-x-lg"></i>
+    </button>
+    <div class="modal-img-ph" id="modalImg">
+      <i class="bi bi-camera"></i>
+      <span>Imagen del proyecto</span>
+    </div>
+    <div class="modal-body-inner">
+      <div class="modal-cat" id="modalCat">Categoría</div>
+      <h2 id="modalTitle">Nombre del proyecto</h2>
+      <div class="modal-details">
+        <div class="detail-box">
+          <div class="dl">Ubicación</div>
+          <div class="dv" id="modalLoc">—</div>
+        </div>
+        <div class="detail-box">
+          <div class="dl">Año</div>
+          <div class="dv" id="modalYear">—</div>
+        </div>
+        <div class="detail-box">
+          <div class="dl">Cliente</div>
+          <div class="dv" id="modalClient">—</div>
+        </div>
+      </div>
+      <p id="modalDesc">Descripción del proyecto.</p>
+      <a href="contacto.html" class="btn-g">
+        Solicitar servicio similar <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script src="proyectos.js"></script>
+
+</body>
+</html>
